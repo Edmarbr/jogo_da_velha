@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+    <h1>Jogo da velha</h1>
+    <span id="placar">
+        <span>
+            <label for="player1">Jogador 1: </label>
+            <input type="text" name="" id="player1"><br>
+            <div id="pontosP1" class="pontosPlayer">0</div>
+        </span>
+        <span>
+            <label for="player2">Jogador 2: </label>
+            <input type="text" name="" id="player2"><br>
+            <div id="pontosP2" class="pontosPlayer">0</div>
+        </span>
+    </span>
+    <div id="container">
+            <div class="divRow">
+                <div class="itens"></div>
+                <div class="itens"></div>
+                <div class="itens"></div>
+            </div>
+            <div class="divRow">
+                <div class="itens"></div>
+                <div class="itens"></div>
+                <div class="itens"></div>
+            </div>
+            <div class="divRow">
+                <div class="itens"></div>
+                <div class="itens"></div>
+                <div class="itens"></div>
+            </div>
+
+            <button id="reset">
+                Reiniciar
+            </button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
